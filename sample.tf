@@ -5,10 +5,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "sample" {
-  ami           = "ami-0d729a60"
+  ami           = "ami-efd0428f"
   instance_type = "t2.micro"
   }
   
  output "ip" {
     value = "${aws_instance.sample.public_ip}"
 }
+
+
