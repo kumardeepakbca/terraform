@@ -14,5 +14,7 @@ resource "aws_instance" "sample" {
 }
 
 this is sample form
+sample terraform folder
+
 
 
