@@ -13,4 +13,6 @@ resource "aws_instance" "sample" {
     value = "${aws_instance.sample.public_ip}"
 }
 
+this is sample form
+
 
